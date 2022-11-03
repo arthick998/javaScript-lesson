@@ -231,7 +231,7 @@ while (rep <= 10) {
 
 let dice = Math.trunc(Math.random() * 6) + 1;
 // console.log (dice);
-
+/*
 while (dice !== 6) {
   console.log(`You rolled a ${dice}`);
   dice = Math.trunc(Math.random() * 6) + 1;
@@ -268,8 +268,9 @@ const calcAverage = function(arr){
 console.log(calcAverage([2,3,7]));
 console.log(calcAverage(totals));
 console.log(calcAverage(tips)); 
+*/
 
-
-
-
-
+function mathematics(multiply) {
+  console.log(`(${multiply}) + 7`);
+}
+mathematics(7 * 9);
